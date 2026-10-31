@@ -1,0 +1,41 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+cff-version: 1.2.0
+message: "If you use this software, please cite the article that it accompanies."
+type: software
+title: "kernel-poisson: kernel Poisson regression with exposures"
+abstract: >-
+  Kernel Poisson and negative-binomial regression with exposures: the estimator, its Newton
+  solver with Fisher-weighted landmarks, leave-one-out tuning in closed form, the competitors
+  of the benchmark and the ten open data sets, with the code that rebuilds every figure and
+  table of the article.
+version: 1.0.0
+license: LGPL-2.1-only
+repository-code: "https://github.com/dutykh/kernel-poisson"
+keywords:
+  - kernel methods
+  - Poisson regression
+  - count data
+  - exposure
+  - leave-one-out cross-validation
+  - Newton method
+authors:
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+  - family-names: Homouz
+    given-names: Dirar
+    affiliation: "Physics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+  - family-names: Maalouf
+    given-names: Maher
+    affiliation: "Department of Management Science and Engineering, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+preferred-citation:
+  type: unpublished
+  title: "Kernel Poisson Regression: Events Set the Accuracy and the Cost"
+  year: 2026
+  authors:
+    - family-names: Dutykh
+      given-names: Denys
+    - family-names: Homouz
+      given-names: Dirar
+    - family-names: Maalouf
+      given-names: Maher

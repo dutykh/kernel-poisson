@@ -1,3 +1,4 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -218,3 +219,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =============================================================================
+# Project-specific
+# =============================================================================
+
+# Downloaded data sets and the files derived from them stay local (see data/README.md).
+data/cache/*
+!data/cache/.gitignore
+
+# Output of the quick runs of the benchmark (experiments/benchmark.py --smoke).
+results/benchmark/smoke*/
+
+# The observed values of the fish data written by `make fish` stay local, like the data sets.
+results/fish/points.csv

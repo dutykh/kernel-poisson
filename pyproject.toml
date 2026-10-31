@@ -1,0 +1,28 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+# Installs the estimator (the package kernelpoisson) with pip install . ; the experiments, the
+# competitors and the data loaders run from the folder of the repository (see requirements.txt).
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kernelpoisson"
+version = "1.0.0"
+description = "Kernel Poisson and negative-binomial regression with exposures: Newton steps in the kernel geometry with Fisher-weighted landmarks, and leave-one-out tuning in closed form"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "LGPL-2.1-only"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Denys Dutykh" },
+  { name = "Dirar Homouz" },
+  { name = "Maher Maalouf" },
+]
+keywords = ["kernel methods", "Poisson regression", "count data", "exposure", "leave-one-out", "Newton method"]
+dependencies = ["numpy>=2.0", "scipy>=1.13"]
+
+[project.urls]
+Repository = "https://github.com/dutykh/kernel-poisson"
+
+[tool.setuptools]
+packages = ["kernelpoisson"]

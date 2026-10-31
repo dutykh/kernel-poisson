@@ -1,0 +1,68 @@
+{
+  "abalone/abalone.arff": {
+    "sha256": "148af233543e257b41b2ad79b4c3a22116be68d8f7a177a1bd108ce94402c8f4",
+    "bytes": 200529,
+    "origin": "https://openml.org/data/v1/download/22111820/abalone.arff",
+    "recorded": "2026-10-18"
+  },
+  "bike/bike+sharing+dataset.zip": {
+    "sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+    "bytes": 279992,
+    "origin": "https://archive.ics.uci.edu/static/public/275/bike+sharing+dataset.zip",
+    "recorded": "2026-10-18"
+  },
+  "biochemists/derived/bioChemists.csv": {
+    "sha256": "bbcfa09f19c1b8f9b4be0c99bc0aef94dac7aa84c1dfe66e83e2c79aaabbc64b",
+    "bytes": 35601,
+    "origin": "R: data(bioChemists, package = 'pscl'); write.csv",
+    "recorded": "2026-10-18"
+  },
+  "chicago/derived/chicagoNMMAPS.csv": {
+    "sha256": "52ebbe46d49d6aa0388cb58e2279d5012b69d5b5851e93bbecdda4946b940993",
+    "bytes": 514125,
+    "origin": "R: load(chicagoNMMAPS.rda) from dlnm_2.4.10.tar.gz; write.csv",
+    "recorded": "2026-10-18"
+  },
+  "chicago/dlnm_2.4.10.tar.gz": {
+    "sha256": "3b75be8ce30b41c90a7b01f373d7a4ca9c5ddddb1739c5e6763c66ac2dfb0bf2",
+    "bytes": 929017,
+    "origin": "https://cloud.r-project.org/src/contrib/dlnm_2.4.10.tar.gz",
+    "recorded": "2026-10-18"
+  },
+  "datacar/dataCar.csv": {
+    "sha256": "62709d9e060c12bc8321a3afd9ae5e47a8a6dde6c52c3a245caa8186f3ae187b",
+    "bytes": 4426766,
+    "origin": "https://vincentarelbundock.github.io/Rdatasets/csv/insuranceData/dataCar.csv",
+    "recorded": "2026-10-18"
+  },
+  "eclipse/promise-2_0a-files-csv.zip": {
+    "sha256": "3446ba604d69d12c7273dc620c1f04c3d82b302521a5c31608e0f624ad623956",
+    "bytes": 5912337,
+    "origin": "https://web.archive.org/web/20230307104700id_/https://www.st.cs.uni-saarland.de/softevo/bug-data/eclipse/promise-2_0a-files-csv.zip",
+    "recorded": "2026-10-18"
+  },
+  "fatalities/Fatalities.csv": {
+    "sha256": "ae265c1b14b4a023179b3af5db33b6a659ccf804987f26e8349826d4083ee149",
+    "bytes": 115717,
+    "origin": "https://vincentarelbundock.github.io/Rdatasets/csv/AER/Fatalities.csv",
+    "recorded": "2026-10-18"
+  },
+  "fishing/fishing.csv": {
+    "sha256": "ab4bf5be9b84cd6ffa8062711a162fe733e8760451e4822d1ad2e722b720180b",
+    "bytes": 8652,
+    "origin": "https://vincentarelbundock.github.io/Rdatasets/csv/COUNT/fishing.csv",
+    "recorded": "2026-10-18"
+  },
+  "fremtpl2/freMTPL2freq.arff": {
+    "sha256": "a45363e056e2ea56408b38eeb9d4d04d7f6c6982eb7a14ed5e807c7c71807cdd",
+    "bytes": 36288567,
+    "origin": "https://www.openml.org/data/v1/download/20649148/freMTPL2freq.arff",
+    "recorded": "2026-10-18"
+  },
+  "solder/solder.csv": {
+    "sha256": "a1a90f7456a8ee043e3b6b6297527517a74e6e9960045907e3bc6193aaef8eee",
+    "bytes": 19822,
+    "origin": "https://vincentarelbundock.github.io/Rdatasets/csv/rpart/solder.csv",
+    "recorded": "2026-10-18"
+  }
+}

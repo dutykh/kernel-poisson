@@ -1,0 +1,15 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+# Python packages of the estimator and of every experiment (versions used for the article; Python 3.14,
+# also tested with Python 3.13).
+numpy==2.3.5
+scipy==1.16.3
+pandas==3.0.6
+scikit-learn==1.9.1
+statsmodels==0.15.0
+matplotlib==3.10.7
+threadpoolctl>=3.1
+pytest
+# The neural-network competitor runs in a separate environment with PyTorch (torch==2.14.1, CPU),
+# whose interpreter is given by the environment variable NETWORK_PYTHON.
+# The generalized additive models, smoothing-spline ANOVA and kernel Tweedie competitors call R 4.5.2
+# with the packages mgcv 1.9.4, gss 2.2.10, pscl 1.5.9 (data only) and ktweedie 1.0.3.
