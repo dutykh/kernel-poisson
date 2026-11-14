@@ -1,6 +1,18 @@
 <!-- Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE) -->
 
-# Kernel Poisson regression with exposures
+# kernel-poisson: kernel Poisson regression with exposures
+
+![Excess risk per event against the expected number of events, in four panels](docs/figures/rates.png)
+
+Excess risk per event of the estimator against the expected number of events `Λ`, at the best penalty,
+as medians and quartiles over 15 replicates (the figure `figures/rates.pdf` of the article). In panel
+(a), with a trigonometric-polynomial log-rate, and in panel (b), with a rough log-rate, the three regimes
+of 0.1, 1 and 10 expected events per observation, from 300 000 observations with rare events down to 30
+observations with ten events each, collapse onto one line, close to the predicted slopes −0.80 and
+−0.67: the number of events, not the number of observations, sets the accuracy. Panel (c) fits the
+Poisson estimator to negative binomial counts of dispersion `kappa_d = 0.5` and `2`, which act as a
+loss of events, and panel (d) holds the number of observations `N` fixed while the exposures grow, so
+that the risk levels off.
 
 This repository accompanies the article *Kernel Poisson Regression: Events Set the Accuracy and the
 Cost* by Denys Dutykh, Dirar Homouz and Maher Maalouf (Khalifa University of Science and Technology,
@@ -228,11 +240,20 @@ score and the logarithmic score stay finite and exact for extreme predictions.
 | `results/` | the numbers behind every figure and table; see `results/README.md` |
 | `figures/`, `tables/` | the figures and tables of the article |
 | `tests/` | the tests of the estimator, the data loaders and the competitors |
+| `docs/figures/` | the picture at the top of this page, `figures/rates.pdf` rendered at 264 dots per inch |
 
-## Citation
+## How to cite
 
-If you use the code, please cite the article. The file `CITATION.cff` gives the reference that GitHub
-shows under "Cite this repository".
+The article *Kernel Poisson Regression: Events Set the Accuracy and the Cost* by Denys Dutykh, Dirar
+Homouz and Maher Maalouf is submitted. Until it is published, please cite the software:
+
+D. Dutykh, D. Homouz and M. Maalouf, kernel-poisson: kernel Poisson regression with exposures,
+software, version 1.0.0 (2026).
+
+https://github.com/dutykh/kernel-poisson
+
+The button "Cite this repository" in the right-hand column of this page gives the same reference, read
+from `CITATION.cff`.
 
 ## License
 

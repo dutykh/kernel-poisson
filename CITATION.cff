@@ -1,41 +1,40 @@
 # Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
 cff-version: 1.2.0
-message: "If you use this software, please cite the article that it accompanies."
+message: "If you use this software, please cite it as given below; the article that it accompanies is submitted."
 type: software
 title: "kernel-poisson: kernel Poisson regression with exposures"
 abstract: >-
   Kernel Poisson and negative-binomial regression with exposures: the estimator, its Newton
   solver with Fisher-weighted landmarks, leave-one-out tuning in closed form, the competitors
   of the benchmark and the ten open data sets, with the code that rebuilds every figure and
-  table of the article.
+  table of the article "Kernel Poisson Regression: Events Set the Accuracy and the Cost" by
+  D. Dutykh, D. Homouz and M. Maalouf (submitted, 2026), which shows that the expected number
+  of events, not the number of observations, governs the accuracy and the cost.
 version: 1.0.0
+date-released: "2026-11-15"
 license: LGPL-2.1-only
 repository-code: "https://github.com/dutykh/kernel-poisson"
 keywords:
-  - kernel methods
-  - Poisson regression
-  - count data
-  - exposure
-  - leave-one-out cross-validation
-  - Newton method
+  - poisson-regression
+  - negative-binomial
+  - count-data
+  - kernel-methods
+  - rkhs
+  - generalized-linear-models
+  - regression
+  - statistics
+  - machine-learning
+  - python
+  - reproducible-research
+  - research-code
 authors:
   - family-names: Dutykh
     given-names: Denys
     affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
   - family-names: Homouz
     given-names: Dirar
     affiliation: "Physics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
   - family-names: Maalouf
     given-names: Maher
     affiliation: "Department of Management Science and Engineering, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
-preferred-citation:
-  type: unpublished
-  title: "Kernel Poisson Regression: Events Set the Accuracy and the Cost"
-  year: 2026
-  authors:
-    - family-names: Dutykh
-      given-names: Denys
-    - family-names: Homouz
-      given-names: Dirar
-    - family-names: Maalouf
-      given-names: Maher
